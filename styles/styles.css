@@ -1,0 +1,180 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+a:link {
+  color: #f00;
+}
+
+a:visited {
+  color: #fc0;
+}
+
+a:hover {
+  background-color: #3cf;
+  color: #03f;
+}
+
+a:active {
+  color: #f3f;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: bold;
+  font-style: italic;
+
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 85, 255, 1) 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#navlist li {
+  display: inline;
+  list-style-type: circle;
+  padding-right: 20px;
+  border-left: 1px solid #000;
+  line-height: 1.1em;
+  margin: 0 0.5em 0 -0.5em;
+  padding: 0 0.5em 0 0.5em;
+}
+
+.box {
+  margin: 10px;
+  padding: 10px;
+  background-color: #666;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  margin: 10px;
+  padding: 10px;
+  background-color: #999;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.left {
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ccc;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.centre {
+  width: 47%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ccc;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.right {
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ccc;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.lower_nav {
+  margin: 10px;
+  padding: 10px;
+  background-color: #999;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  clear: both;
+}
+
+.legal {
+  margin: 10px;
+  padding: 10px;
+  background-color: #999;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  float: none;
+  clear: both;
+}
+
+.deadnav {
+  color: #fff;
+  background-color: #3cf;
+}
+
+#linklist {
+  margin-left: 20px;
+}
+
+#linklist li {
+  font-size: 36px;
+  padding-left: 10px;
+}
+
+i.fa-github {
+  color: black;
+}
+
+i.fa-linkedin-square {
+  color: #0077b5;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-grow: 1;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  font-size: 32px;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 24px;
+}
+
+.centre > h1 {
+  text-align: center;
+}
